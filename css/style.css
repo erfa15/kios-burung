@@ -1,0 +1,70 @@
+.warna1 {
+  background-color: #ec8f5e;
+}
+
+.warna2 {
+  background-color: #4e31aa;
+}
+
+.warna3 {
+  background-color: #ec8f5e;
+}
+
+.warna4 {
+  background-color: #ec8f5e;
+}
+
+.banner {
+  height: 92vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../image/logooo.jpeg");
+}
+
+.highlighted-kategori {
+  height: 200px;
+}
+
+.kategori-makanan-burung {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+}
+
+.kategori-burung-kicau {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+}
+
+.no-decoration {
+  text-decoration: none;
+  color: white;
+}
+
+.no-decoration:hover {
+  color: #ffa41b;
+}
+
+.text-harga {
+  font-size: 22px;
+  color: #4e31aa;
+}
+
+.content-subscribe {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.content-subscribe a {
+  color: #fff;
+}
+
+.banner-produk {
+  height: 45vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../image/logooo.jpeg");
+  background-position: 50% 35%;
+}
+
+.produk-terkait-image {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 80px;
+  align-items: center;
+  grid-gap: 20px;
+}
